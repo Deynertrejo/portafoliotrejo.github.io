@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(https://imgs.search.brave.com/TexyE0ZL8oghgrmgCucp6ZJCZjL4u1hf93qXpGXr2O4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzQ4LzA0LzEx/LzM2MF9GXzI0ODA0/MTEzNV82NFZHM3Fx/WWo3VURIV2FkaVpJ/RTlSdGtZMXVjSDg0/RC5qcGc);
+  background-size: cover;
+}
+header{
+    background-color: rgba(28, 92, 134, 0.61);
+    padding: 15px;
+    position: sticky;
+    top: 0;
+
+}
+nav{
+    background-color: rgba(241, 31, 3, 0.897);
+    padding: 8px;
+    border-radius: 10px;
+}
+li{
+ display: inline-block;
+ margin: 0 10px;
+ color: aliceblue;
+ font-weight: bold;
+}
+.secc1{
+width: 500px;
+margin: 45px auto;
+background-color: rgba(15, 86, 148, 0.336);
+color: antiquewhite;
+font-size: 20px;
+border-radius: 55px 0px 55px 0px;
+padding: 20px;
+
+}
+img{
+    width: 85px;
+    height: 70px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}

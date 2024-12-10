@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  header {
+    background-image: url(https://live.staticflickr.com/65535/52484546653_36dcbea62f_b.jpg);
+    background-size: cover;
+    color: rgb(221, 214, 206);
+    padding: 5px 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;  
+    
+}
+
+  .logo h1 {
+    margin: 10px;
+    font-size: 50px;
+
+  }
+  
+  .slogan {
+    font-size: 14px;
+    color: #f0a500;
+    margin-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .Nav1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 0;
+  }
+
+.Nav1 ul li{
+  display: block;
+  margin-bottom:10px ;
+}
+
+.Nav1 ul ul li:last-child{
+  margin-bottom: 0;
+}
+  
+  .Nav1 ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .Nav1 a {
+    transition: color 0.2s ease;
+  }
+
+  .Nav1 a:hover{
+    color: #742e06;
+  }
+
+  .Nav1 ul li a{
+    text-decoration:none ;
+    font-size: 19px;
+    color: rgb(255, 211, 174);
+    
+  }
+
+  .Nav1 ul ul{
+     display: none;
+    position: absolute;
+    background-color: #f3701fc5;
+    padding: 9px;
+    border: 1px solid #803001;
+    border-radius: 10px;
+    z-index: 10;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .Nav1 ul li:hover>ul{
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+
+.seccion1{
+    text-align: center;
+    background-color: #d4a981;
+    padding: 1px;
+}
+
+.seccion1 h1{
+    font-size: 43px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #47280a;
+}
+
+.seccion1 p{
+    font-size: 15px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 40px;
+    
+    background-color: #d4a981;
+    padding: 45px;
+  }
+
+  .contenedor h3{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #47280a;
+  }
+
+  .contenedor p{
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .sub1{
+    box-shadow: 0px 0px 10px 2px #693204a1;
+    padding: 5px;
+    background-color: #cfad79;
+    border-radius: 7px;
+  }
+
+  .contenedor img{
+    max-width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #d4a981;
+  }
+
+  form input{
+    margin: 20px 0;
+    height: 40px;
+    background-color: #eedbbf;
+  }
+
+  select{
+    margin: 20px 0;
+    height: 40px;
+  }

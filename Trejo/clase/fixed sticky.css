@@ -1,0 +1,27 @@
+.caja1{
+    width: 50px;
+    height: 70px;
+    background-color:antiquewhite;
+    position: sticky;
+    left: 80px;
+    top:0px
+}
+.p1{
+ background-color: aqua;  
+ display: inline; 
+ width: 300px;
+ height: 100px;
+ margin: 20px;
+}
+.p2{
+    background-color: aquamarine;
+    display: block;
+}
+.p3{
+    background-color: brown;
+    display: inline-block;/*con el inle-block el ancho del contenido se ajusta al contenido como si fuera un elemento inline, pero se puede aplicar las propiedades de alto ancho y margin*/
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+
+}

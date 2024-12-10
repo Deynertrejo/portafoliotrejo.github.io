@@ -1,0 +1,257 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-image: url(https://live.staticflickr.com/65535/52484546653_36dcbea62f_b.jpg);
+    background-size: cover;
+    color: rgb(221, 214, 206);
+    padding: 5px 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;  
+}
+
+  .logo h1 {
+    margin: 10px;
+    font-size: 50px;
+
+  }
+  
+  .slogan {
+    font-size: 14px;
+    color: #f0a500;
+    margin-top: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .Nav1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 0;
+  }
+
+.Nav1 ul li{
+  display: block;
+  margin-bottom:10px ;
+}
+
+.Nav1 ul ul li:last-child{
+  margin-bottom: 0;
+}
+  
+  .Nav1 ul li {
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .Nav1 a {
+    transition: color 0.2s ease;
+  }
+
+  .Nav1 a:hover{
+    color: #742e06;
+  }
+
+  .Nav1 ul li a{
+    text-decoration:none ;
+    font-size: 19px;
+    color: rgb(255, 211, 174);
+    
+  }
+
+  .Nav1 ul ul{
+     display: none;
+    position: absolute;
+    background-color: #f3701fc5;
+    padding: 9px;
+    border: 1px solid #803001;
+    border-radius: 10px;
+    z-index: 10;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+
+  .Nav1 ul li:hover>ul{
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+#Descrip{
+    background-color: rgb(250, 236, 225);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 95px;
+    padding-bottom:45px ;
+}
+
+  #Descrip div p{
+    padding-top:10px ;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+
+
+  #Descrip img{
+    justify-content: flex-end;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border-radius: 15px;
+    box-shadow: 20px 10px 35px#666;
+    border: 2px solid rgb(168, 93, 31);
+    z-index: 1;
+  }
+
+  
+.Sub{
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 15px;
+    color: #3b271c;
+}
+
+ #Precios {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .Habitacion {
+    background-color: #f0cba6;
+    border: 1px solid #d68758;
+    padding: 18px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.5s ease, background-color 0.4s ease;
+  }
+
+  .Habitacion:hover{
+    transform: scale(1.1);
+    background-color: #da8f64;
+  }
+
+  .Habitacion ul li{
+    font-size: 13px;
+    text-align: left;
+
+  }
+  
+  .Habitacion img {
+    width: 150px;
+    height: 130px;
+    border-radius: 8px;
+  }
+  
+  .Habitacion-info {
+    margin-top: 15px;
+
+  }
+  
+  .Habitacion-info h2 {
+    font-size: 22px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  
+  .Habitacion .Precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #110b02;
+    margin-top: 10px;
+  }
+
+  .Insta{
+    background-color: #f0cba662;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Insta h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color:#3b271c ;
+  }
+  .insthab{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .insthab .hab {
+    margin: 45px;
+    max-width: 280px;
+    transition: transform 0.5s,
+    box-shadow 0.2s ease;
+    border: 3px solid #684438;   
+    object-fit: cover;
+    height: 220px;
+  }
+
+  .insthab .hab:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 20px black;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #6b2801;
+    padding-bottom: 29px;
+    margin: -15px;
+  }
+
+footer > div{
+  margin-right: 20px;
+}
+
+footer > div:last-child{
+  margin-right: 0;
+}
+
+.titulo{
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e4b79e;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.lista{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.lista li{
+  margin-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color:  rgb(19, 11, 4);;
+  
+}
+
+.lista li a {
+  text-decoration: none;
+  color: rgb(19, 11, 4);
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  

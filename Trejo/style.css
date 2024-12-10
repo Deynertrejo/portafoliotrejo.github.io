@@ -1,0 +1,90 @@
+h2{
+    color:greenyellow;
+font-size: 7px;
+}
+
+h4{
+    color:blue
+}
+
+h5{
+    color:green
+}
+
+.subtitulo-h5{
+    color:aqua
+}
+.subtitulo-h7{
+    color: red;
+}
+#form1{
+    color:pink
+}
+#colorrojo{
+    color: red;
+}
+#colorverde{
+    color: green;
+}
+#colorazul{
+    color: blue;
+    background-color: brown;
+    height: auto;
+    width: auto;
+}
+.list_orden{
+    color: rgb(243, 75, 14);
+}
+.lit{
+    color: yellow;
+}
+.p_text{
+    color: brown;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+ .desp{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: blue;
+ }
+
+ .bloque1{
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+ }
+
+ .cdt{
+    background-color: brown;
+    width: 500px;
+    height: 50px;
+ }
+ .tt{
+    background-color: blue;
+ }
+ .parr2{
+    background-color: aquamarine;
+    width: 250px;
+    text-align: center;
+    border-width: 10px;
+    border-color: black;
+    border-style: dotted;
+
+    border:2px dotted red; /*el primer valor es el ancho, 
+    el segundo valor es el estilo,el tercero es el color*/
+    border-radius: 5px; /*redondear las esquinas*/
+ }
+.parr3{
+    background-color: rgb(15, 99, 71);
+    width: 250px;
+    text-align: center;
+    border-top: 3px color blue;
+    border-right: 3px blue;
+    border-bottom: 3px blue;
+    border-left: 3px blue;
+}
